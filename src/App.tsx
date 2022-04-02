@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { TransactionsProvider } from './contexts/transactions.context';
+import { TransactionsProvider } from './hooks/useTransactions';
 import { GlobalStyle } from "./styles/global.style";
 import Modal from 'react-modal';
 import Header from "./components/header/header.component";
