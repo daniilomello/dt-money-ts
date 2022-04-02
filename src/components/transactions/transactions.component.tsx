@@ -1,22 +1,9 @@
-import { useEffect, useState } from 'react';
-import {api} from '../../services/axios/api';
-import {Container} from './transactions.styles';
-interface TransactionProps {
-  id: number;
-  title: string;
-  amount: number;
-  type: string;
-  category: string;
-  createdAt: string;
-}
+import { useContext } from 'react';
+import { TransactionsContext } from '../../contexts/transactions.context';
+import { Container } from './transactions.styles';
 
 const TransactionsTable = () => {
-  const [transactions, setTransactions] = useState<TransactionProps[]>([]);
-
-  useEffect(() => {
-    api.get('transactions')
-    .then(response => setTransactions(response.data.transactions))
-  }, [])
+  const { transactions } = useContext(TransactionsContext);
 
   return (
     <Container>
@@ -30,12 +17,6 @@ const TransactionsTable = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Desenvolvimento de website</td>
-            <td className="deposit">R$ 12.000,00</td>
-            <td>Desenvolvimento</td>
-            <td>20/02/2021</td>
-          </tr>
           {transactions.map(transaction => (
             <tr key={transaction.id}>
               <td>{transaction.title}</td>
