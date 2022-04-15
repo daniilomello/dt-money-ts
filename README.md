@@ -1,5 +1,5 @@
 <p align="center">
-  :moneybag: A simple google clone to help you make easy search on the web.
+  :moneybag: A simple app to help you manage your finances easily and fast
 </p>
 
 <div align="center">
