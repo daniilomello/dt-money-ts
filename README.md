@@ -1,46 +1,46 @@
-<p align="center">
-  :moneybag: A simple app to help you manage your finances easily and fast
-</p>
+<h1 align="center">
+    <img alt="capa do projeto" src=".github/cover.png" />
+</h1>
 
-<div align="center">
-  <sub> Made with 💖 by
-    <a href="https://github.com/daniilomello">Danilo Mello.
-  </sub>
-</div>
+<br>
 
-# 📌 Contents
+## 🧪 Tecnologias
 
-* [Technologies](#rocket-technologies)
-* [How to Run](#computer-how-to-run)
-* [License](#page_facing_up-license)
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-# :rocket: Technologies
-This project was made using the follow technologies:
+- [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+- [Mirage](https://miragejs.com/)
 
-* [Typescript](https://www.typescriptlang.org/)
-* [React](https://reactjs.org/)
-* [Styled Components](https://styled-components.com/)
+## 🚀 Como executar
 
-# :computer: How to run
+Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
-# Clone Repository
-$ git clone
+$ git clone https://github.com/daniilomello/dt-money-ts.git
+$ cd dt-money-ts
 ```
 
 ```bash
-# Install Dependencies
+# Instalar as dependências
 $ yarn
 
-# Run Aplication
+# Iniciar o projeto
 $ yarn start
 ```
-Go to http://localhost:3000/ to see the result.
+O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
 
-# :page_facing_up: License
+## 💻 Projeto
 
-This project is under the [MIT license](./LICENSE).
-Made with 💖 by [Danilo Mello](https://www.linkedin.com/in/daniilomello/).
+Web App para gerenciar suas finanças e gastos.
 
-Thank you! 🌠
+
+## 📝 License
+
+Esse projeto está sob a licença MIT.
+
+---
+
+Feito com 💜 by Danilo Mello 👋🏻
